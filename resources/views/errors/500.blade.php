@@ -1,0 +1,1 @@
+<h1 style="font-family: cursive; text-align: center; margin-top: 25%; border: 1px solid grey; border-radius: 30px 30px 30px; padding: 10px; box-shadow: 8px 8px 10px #aaaaaa">{!! $exception->getMessage() !!}</h1>
