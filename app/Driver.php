@@ -58,7 +58,7 @@ class Driver extends Model
     {
         $id = sprintf('%04d', $is_id_no ? $this->id_no : $this->getLatestIDControlNo());
 
-        return $this->is_city_driver ? $id : 'B ' . $id;
+        return $this->is_city_driver ? 'A ' . $id : 'AB ' . $id;
     }
 
     public function getLatestIDControlNo()
