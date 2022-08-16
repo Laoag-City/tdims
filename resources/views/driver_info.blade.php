@@ -110,7 +110,7 @@
 	</div>
 
 	<div class="column is-5 has-text-centered">
-		<h5 class="title is-5">{{ friendlyDate($driver->date_of_birth) }}</h5>
+		<h5 class="title is-5">{{ friendlyDate($driver->date_of_birth, false) }}</h5>
 	</div>
 </div>
 

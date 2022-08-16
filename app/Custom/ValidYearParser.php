@@ -17,7 +17,7 @@ class ValidYearParser
         $month_now = Carbon::now()->month;
 
         if($year_now - $this::START_YEAR < 0)
-            abort(500, 'Error: Your time is behind ' . $this::START_YEAR . '. Please adjust your time to the time <u>now</u>. <br><br><i>Don\'t look back to the past. Look beyond to the future in the present time. - R. J. B.</i>');
+            abort(500, 'Error: Your time is behind ' . $this::START_YEAR . '. Please adjust your time to the time <u>now</u>.');
 
         if($year_now > $this::START_YEAR)
             $valid_year_order_number = $year_now - $this::START_YEAR;

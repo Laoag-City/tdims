@@ -322,6 +322,7 @@
 		
 		<br>
 
+		<!--
 		<div class="columns">
 			<div class="column is-6">
 				<div class="field">
@@ -348,6 +349,27 @@
 					<label class="label">Position</label>
 					<div class="control">
 						<input type="text" class="input" readonly="" value="{{ $verified_position }}">
+					</div>
+				</div>
+			</div>
+
+			<div class="column is-6">
+				<div class="field">
+					<label class="label">Position</label>
+					<div class="control">
+						<input type="text" class="input" readonly="" value="{{ $attested_position }}">
+					</div>
+				</div>
+			</div>
+		</div>
+		-->
+
+		<div class="columns">
+			<div class="column is-6">
+				<div class="field">
+					<label class="label">Attested By</label>
+					<div class="control">
+						<input type="text" class="input" readonly="" value="{{ $attested_name }}">
 					</div>
 				</div>
 			</div>
